@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="7.77" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.51-b03"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/homayoun/.jenkins/workspace/webdriverbasic"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/homayoun/.jenkins/workspace/webdriverbasic"/>
+    <property name="java.runtime.version" value="1.8.0_51-b16"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/l8/dm8p8sdd3dj8xy33j8qwf3qc0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/homayoun/Documents/apache-maven-3.3.3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/homayoun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.11.6"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/homayoun"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="homayoun"/>
+    <property name="java.class.path" value="/Users/homayoun/Documents/apache-maven-3.3.3/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f /Users/homayoun/Documents/webdriverbasics/pom.xml clean test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_51"/>
+    <property name="java.ext.dirs" value="/Users/homayoun/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/homayoun/Documents/apache-maven-3.3.3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="feature" classname="com.RahulShetty.TestngRunner.TestngRunner" time="7.166">
+    <failure message="java.lang.AssertionError: expected [true] but found [false]" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: java.lang.AssertionError: expected [true] but found [false]
+Caused by: java.lang.AssertionError: expected [true] but found [false]
+</failure>
+    <system-out><![CDATA[Feature: A simple google homepage test
+
+  Scenario: Asserting the title of google homepage &amp#27;[90m# myfirstcucumberfeature.feature:3&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI initilize the firefox browser&amp#27;[0m          &amp#27;[90m# FirstStepDefinition.i_initilize_the_firefox_browser()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI am on google homepage&amp#27;[0m                    &amp#27;[90m# FirstStepDefinition.i_am_on_google_homepage()&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mI validate the title of the page&amp#27;[0m          &amp#27;[90m# FirstStepDefinition.i_validate_the_title_of_the_page()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [true] but found [false]
+      	at org.testng.Assert.fail(Assert.java:94)
+      	at org.testng.Assert.failNotEquals(Assert.java:513)
+      	at org.testng.Assert.assertTrue(Assert.java:42)
+      	at org.testng.Assert.assertTrue(Assert.java:52)
+      	at com.RahulShetty.stepdefinition.FirstStepDefinition.i_validate_the_title_of_the_page(FirstStepDefinition.java:25)
+      	at ✽.Then I validate the title of the page(myfirstcucumberfeature.feature:6)
+      &amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI quit the browser&amp#27;[0m                         &amp#27;[90m# FirstStepDefinition.i_quit_the_browser()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Oct 10, 2016 4:16:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+1476141413515	Marionette	INFO	Listening on port 64551
+1476141415845	Marionette	INFO	startBrowser 484c4732-6d11-0b40-acb2-79d6f0a9a019
+1476141415860	Marionette	INFO	sendAsync 484c4732-6d11-0b40-acb2-79d6f0a9a019
+Oct 10, 2016 4:16:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1476141416231	Marionette	INFO	sendAsync 484c4732-6d11-0b40-acb2-79d6f0a9a019
+1476141416669	Marionette	INFO	sendAsync 484c4732-6d11-0b40-acb2-79d6f0a9a019
+1476141418004	Marionette	INFO	sendAsync 484c4732-6d11-0b40-acb2-79d6f0a9a019
+]]></system-err>
+  </testcase>
+</testsuite>
