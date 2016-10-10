@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="7.77" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="9.598" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib"/>
@@ -61,7 +61,7 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="feature" classname="com.RahulShetty.TestngRunner.TestngRunner" time="7.166">
+  <testcase name="feature" classname="com.RahulShetty.TestngRunner.TestngRunner" time="8.738">
     <failure message="java.lang.AssertionError: expected [true] but found [false]" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: java.lang.AssertionError: expected [true] but found [false]
 Caused by: java.lang.AssertionError: expected [true] but found [false]
 </failure>
@@ -81,16 +81,16 @@ Caused by: java.lang.AssertionError: expected [true] but found [false]
       &amp#27;[0m
     &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI quit the browser&amp#27;[0m                         &amp#27;[90m# FirstStepDefinition.i_quit_the_browser()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Oct 10, 2016 4:16:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err><![CDATA[Oct 10, 2016 4:27:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
-1476141413515	Marionette	INFO	Listening on port 64551
-1476141415845	Marionette	INFO	startBrowser 484c4732-6d11-0b40-acb2-79d6f0a9a019
-1476141415860	Marionette	INFO	sendAsync 484c4732-6d11-0b40-acb2-79d6f0a9a019
-Oct 10, 2016 4:16:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1476142026464	Marionette	INFO	Listening on port 64928
+1476142028078	Marionette	INFO	startBrowser 435732d7-f4c7-e34c-b0e3-3263237eb16d
+1476142028090	Marionette	INFO	sendAsync 435732d7-f4c7-e34c-b0e3-3263237eb16d
+Oct 10, 2016 4:27:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-1476141416231	Marionette	INFO	sendAsync 484c4732-6d11-0b40-acb2-79d6f0a9a019
-1476141416669	Marionette	INFO	sendAsync 484c4732-6d11-0b40-acb2-79d6f0a9a019
-1476141418004	Marionette	INFO	sendAsync 484c4732-6d11-0b40-acb2-79d6f0a9a019
+1476142028456	Marionette	INFO	sendAsync 435732d7-f4c7-e34c-b0e3-3263237eb16d
+1476142028751	Marionette	INFO	sendAsync 435732d7-f4c7-e34c-b0e3-3263237eb16d
+1476142030409	Marionette	INFO	sendAsync 435732d7-f4c7-e34c-b0e3-3263237eb16d
 ]]></system-err>
   </testcase>
 </testsuite>
