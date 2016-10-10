@@ -38,28 +38,28 @@ formatter.match({
   "location": "FirstStepDefinition.i_initilize_the_firefox_browser()"
 });
 formatter.result({
-  "duration": 4560198108,
+  "duration": 4940985456,
   "status": "passed"
 });
 formatter.match({
   "location": "FirstStepDefinition.i_am_on_google_homepage()"
 });
 formatter.result({
-  "duration": 1761054751,
+  "duration": 1470900375,
   "status": "passed"
 });
 formatter.match({
   "location": "FirstStepDefinition.i_validate_the_title_of_the_page()"
 });
 formatter.result({
-  "duration": 12771673,
-  "error_message": "java.lang.AssertionError: expected [true] but found [false]\n\tat org.testng.Assert.fail(Assert.java:94)\n\tat org.testng.Assert.failNotEquals(Assert.java:513)\n\tat org.testng.Assert.assertTrue(Assert.java:42)\n\tat org.testng.Assert.assertTrue(Assert.java:52)\n\tat com.RahulShetty.stepdefinition.FirstStepDefinition.i_validate_the_title_of_the_page(FirstStepDefinition.java:25)\n\tat ✽.Then I validate the title of the page(myfirstcucumberfeature.feature:6)\n",
-  "status": "failed"
+  "duration": 20189953,
+  "status": "passed"
 });
 formatter.match({
   "location": "FirstStepDefinition.i_quit_the_browser()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 142501610,
+  "status": "passed"
 });
 });
