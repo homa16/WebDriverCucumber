@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Asserting the title of google homepage",
+        "description": "",
+        "id": "a-simple-google-homepage-test;asserting-the-title-of-google-homepage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3774478664,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I initilize the firefox browser",
+            "match": {
+              "location": "FirstStepDefinition.i_initilize_the_firefox_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1751871462,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on google homepage",
+            "match": {
+              "location": "FirstStepDefinition.i_am_on_google_homepage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11272570,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I validate the title of the page",
+            "match": {
+              "location": "FirstStepDefinition.i_validate_the_title_of_the_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 114328004,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I quit the browser",
+            "match": {
+              "location": "FirstStepDefinition.i_quit_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "A simple google homepage test",
+    "description": "",
+    "id": "a-simple-google-homepage-test",
+    "keyword": "Feature",
+    "uri": "myfirstcucumberfeature.feature"
+  }
+]
