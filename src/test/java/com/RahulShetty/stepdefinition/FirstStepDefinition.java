@@ -22,7 +22,7 @@ public class FirstStepDefinition {
 
 	@Then("^I validate the title of the page$")
 	public void i_validate_the_title_of_the_page() throws Throwable {
-	 Assert.assertTrue(driver.getTitle().equals("Google"));
+	 Assert.assertTrue(driver.getTitle().equals("oogle"));
 	}
 
 	@Then("^I quit the browser$")
