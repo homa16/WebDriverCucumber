@@ -5,7 +5,7 @@
   
   <classes>
   <!--  <class name="com.RahulShetty.webdriver.MavenFirefoxTest"> </class> -->
-  <class name="com.RahulShetty.testngrunner.TestngRunner"> </class>
+  <class name="com.RahulShetty.TestngRunner.TestngRunner"> </class>
   
   
   
