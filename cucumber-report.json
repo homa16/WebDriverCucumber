@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3652431218,
+              "duration": 3212849793,
               "status": "passed"
             },
             "line": 4,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 1727976168,
+              "duration": 1801665367,
               "status": "passed"
             },
             "line": 5,
@@ -36,9 +36,8 @@
           },
           {
             "result": {
-              "duration": 11366380,
-              "error_message": "java.lang.AssertionError: expected [true] but found [false]\n\tat org.testng.Assert.fail(Assert.java:94)\n\tat org.testng.Assert.failNotEquals(Assert.java:513)\n\tat org.testng.Assert.assertTrue(Assert.java:42)\n\tat org.testng.Assert.assertTrue(Assert.java:52)\n\tat com.RahulShetty.stepdefinition.FirstStepDefinition.i_validate_the_title_of_the_page(FirstStepDefinition.java:25)\n\tat ✽.Then I validate the title of the page(myfirstcucumberfeature.feature:6)\n",
-              "status": "failed"
+              "duration": 10093239,
+              "status": "passed"
             },
             "line": 6,
             "name": "I validate the title of the page",
@@ -49,7 +48,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 121019765,
+              "status": "passed"
             },
             "line": 7,
             "name": "I quit the browser",
