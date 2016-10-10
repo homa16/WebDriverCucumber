@@ -38,28 +38,28 @@ formatter.match({
   "location": "FirstStepDefinition.i_initilize_the_firefox_browser()"
 });
 formatter.result({
-  "duration": 4075657013,
+  "duration": 4542500730,
   "status": "passed"
 });
 formatter.match({
   "location": "FirstStepDefinition.i_am_on_google_homepage()"
 });
 formatter.result({
-  "duration": 1685730767,
+  "duration": 1687927811,
   "status": "passed"
 });
 formatter.match({
   "location": "FirstStepDefinition.i_validate_the_title_of_the_page()"
 });
 formatter.result({
-  "duration": 9576403,
+  "duration": 12205234,
   "status": "passed"
 });
 formatter.match({
   "location": "FirstStepDefinition.i_quit_the_browser()"
 });
 formatter.result({
-  "duration": 132204554,
+  "duration": 124782784,
   "status": "passed"
 });
 });
